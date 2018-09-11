@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+Category.h
 //  SimpleRuntimeProject
 //
 //  Created by 黃秋陽 on 2018/7/24.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIImage (Category)
+
+@property (nonatomic, copy) NSString *newProperty;
 
 @end
-

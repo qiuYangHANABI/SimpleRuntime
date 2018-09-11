@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3636592147AD9800F9EAEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3636582147AD9800F9EAEA /* Person.m */; };
+		CE7A213D211196600031F6C4 /* NSObject+DictToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A213C211196600031F6C4 /* NSObject+DictToModel.m */; };
 		CEC6F7052106B62700312D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F7042106B62700312D64 /* AppDelegate.m */; };
 		CEC6F7082106B62700312D64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F7072106B62700312D64 /* ViewController.m */; };
 		CEC6F70B2106B62700312D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6F7092106B62700312D64 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		CEC6F7132106B62700312D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F7122106B62700312D64 /* main.m */; };
 		CEC6F71D2106B62700312D64 /* SimpleRuntimeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F71C2106B62700312D64 /* SimpleRuntimeProjectTests.m */; };
 		CEC6F7282106B62700312D64 /* SimpleRuntimeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F7272106B62700312D64 /* SimpleRuntimeProjectUITests.m */; };
+		CEC6F7372106B6AD00312D64 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F7362106B6AD00312D64 /* UIImage+Category.m */; };
+		CEC6F73B2106BC2000312D64 /* DynamicAddMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F73A2106BC2000312D64 /* DynamicAddMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3636572147AD9800F9EAEA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CE3636582147AD9800F9EAEA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CE7A213B211196600031F6C4 /* NSObject+DictToModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DictToModel.h"; sourceTree = "<group>"; };
+		CE7A213C211196600031F6C4 /* NSObject+DictToModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DictToModel.m"; sourceTree = "<group>"; };
 		CEC6F7002106B62700312D64 /* SimpleRuntimeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRuntimeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6F7032106B62700312D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEC6F7042106B62700312D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		CEC6F7232106B62700312D64 /* SimpleRuntimeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRuntimeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6F7272106B62700312D64 /* SimpleRuntimeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRuntimeProjectUITests.m; sourceTree = "<group>"; };
 		CEC6F7292106B62700312D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC6F7352106B6AD00312D64 /* UIImage+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		CEC6F7362106B6AD00312D64 /* UIImage+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		CEC6F7392106BC2000312D64 /* DynamicAddMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicAddMethods.h; sourceTree = "<group>"; };
+		CEC6F73A2106BC2000312D64 /* DynamicAddMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicAddMethods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				CEC6F7042106B62700312D64 /* AppDelegate.m */,
 				CEC6F7062106B62700312D64 /* ViewController.h */,
 				CEC6F7072106B62700312D64 /* ViewController.m */,
+				CEC6F7352106B6AD00312D64 /* UIImage+Category.h */,
+				CEC6F7362106B6AD00312D64 /* UIImage+Category.m */,
+				CEC6F7392106BC2000312D64 /* DynamicAddMethods.h */,
+				CEC6F73A2106BC2000312D64 /* DynamicAddMethods.m */,
+				CE7A213B211196600031F6C4 /* NSObject+DictToModel.h */,
+				CE7A213C211196600031F6C4 /* NSObject+DictToModel.m */,
+				CE3636572147AD9800F9EAEA /* Person.h */,
+				CE3636582147AD9800F9EAEA /* Person.m */,
 				CEC6F7092106B62700312D64 /* Main.storyboard */,
 				CEC6F70C2106B62700312D64 /* Assets.xcassets */,
 				CEC6F70E2106B62700312D64 /* LaunchScreen.storyboard */,
@@ -266,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC6F7082106B62700312D64 /* ViewController.m in Sources */,
+				CEC6F73B2106BC2000312D64 /* DynamicAddMethods.m in Sources */,
+				CE3636592147AD9800F9EAEA /* Person.m in Sources */,
+				CE7A213D211196600031F6C4 /* NSObject+DictToModel.m in Sources */,
 				CEC6F7132106B62700312D64 /* main.m in Sources */,
 				CEC6F7052106B62700312D64 /* AppDelegate.m in Sources */,
+				CEC6F7372106B6AD00312D64 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
